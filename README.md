@@ -9,13 +9,14 @@ Below you can see what quests the mod covers and what barter items was added for
 | Added Item | Barter Cost | Trader | Quest Restriction |
 | ---------- | ----------- | ------ | ----------------- |
 | MP-43-1C 12ga double-barrel shotgun | 2xShustrilo sealing foam | Jaeger LVL1 | None |
-| MP-43-1C 12ga double-barrel shotgun | 2xShustrilo sealing foam | Jaeger LVL1 | None |
+| MP-43-1C 12ga 510mm barrel | 3xSilicone Tube | Jaeger LVL1 | None |
 
 ### Test Drive Part 4
 
 | Added Item | Barter Cost | Trader | Quest Restriction |
 | ---------- | ----------- | ------ | ----------------- |
-| MP-133/153 plastic pistol grip | 1xRAM | Jaeger LVL1 |  |
+| NPZ 1P78-1 dovetail mount | 1xRechargeable battery 1xOrtodontox toothpaste | Prapor LVL1 | None  |
+| NPZ 1P78-1 2.8x scope | 1xRechargeable battery 1xCyclon rechargeable battery | Prapor LVL1 | None  |
 
 ## Tools
 This project is designed to streamline the initial setup process for building and creating mods in the SPT environment. Follow this guide to set up your environment efficiently.
