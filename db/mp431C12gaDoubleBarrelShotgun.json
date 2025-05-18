@@ -1,0 +1,80 @@
+{
+    "items": [
+        {
+            "_id": "67895bf8d549ac3dab0e7f8a",
+            "_tpl": "5ac66d015acfc400180ae6e4",
+            "upd": {
+                "Repairable": {
+                    "MaxDurability": 100,
+                    "Durability": 100
+                },
+                "Foldable": {
+                    "Folded": false
+                },
+                "FireMode": {
+                    "FireMode": "single"
+                }
+            }
+        },
+        {
+            "_id": "67895bf8d549ac3dab0e7f8b",
+            "_tpl": "59c6633186f7740cf0493bb9",
+            "slotId": "mod_gas_block",
+            "parentId": "67895bf8d549ac3dab0e7f8a"
+        },
+        {
+            "_id": "67895bf8d549ac3dab0e7f8c",
+            "_tpl": "5ac72e725acfc400180ae701",
+            "slotId": "mod_muzzle",
+            "parentId": "67895bf8d549ac3dab0e7f8a"
+        },
+        {
+            "_id": "67895bf8d549ac3dab0e7f8d",
+            "_tpl": "5649ade84bdc2d1b2b8b4587",
+            "slotId": "mod_pistol_grip",
+            "parentId": "67895bf8d549ac3dab0e7f8a"
+        },
+        {
+            "_id": "67895bf8d549ac3dab0e7f8e",
+            "_tpl": "5ac50da15acfc4001718d287",
+            "slotId": "mod_reciever",
+            "parentId": "67895bf8d549ac3dab0e7f8a"
+        },
+        {
+            "_id": "67895bf8d549ac3dab0e7f8f",
+            "_tpl": "5ac733a45acfc400192630e2",
+            "slotId": "mod_sight_rear",
+            "upd": {
+                "Sight": {
+                    "ScopesCurrentCalibPointIndexes": [
+                        0
+                    ],
+                    "ScopesSelectedModes": [
+                        0
+                    ],
+                    "SelectedScope": 0,
+                    "ScopeZoomValue": 0
+                }
+            },
+            "parentId": "67895bf8d549ac3dab0e7f8a"
+        },
+        {
+            "_id": "67895bf8d549ac3dab0e7f80",
+            "_tpl": "5ac50c185acfc400163398d4",
+            "slotId": "mod_stock",
+            "parentId": "67895bf8d549ac3dab0e7f8a"
+        },
+        {
+            "_id": "67895bf8d549ac3dab0e7f81",
+            "_tpl": "5ac66c5d5acfc4001718d314",
+            "slotId": "mod_magazine",
+            "parentId": "67895bf8d549ac3dab0e7f8a"
+        },
+        {
+            "_id": "67895bf8d549ac3dab0e7f82",
+            "_tpl": "5648b1504bdc2d9d488b4584",
+            "slotId": "mod_handguard",
+            "parentId": "67895bf8d549ac3dab0e7f8b"
+        }
+    ]
+}
