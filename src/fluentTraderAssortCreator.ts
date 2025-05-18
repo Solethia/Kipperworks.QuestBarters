@@ -1,10 +1,11 @@
 import { ItemHelper } from "@spt/helpers/ItemHelper";
 import { QuestHelper } from "@spt/helpers/QuestHelper";
 import { IItem } from "@spt/models/eft/common/tables/IItem";
-import { IQuest, IQuestReward } from "@spt/models/eft/common/tables/IQuest";
+import { IReward } from "@spt/models/eft/common/tables/IReward";
+import { IQuest } from "@spt/models/eft/common/tables/IQuest";
 import { IBarterScheme, ITrader } from "@spt/models/eft/common/tables/ITrader";
 import { Money } from "@spt/models/enums/Money";
-import { QuestRewardType } from "@spt/models/enums/QuestRewardType";
+import { RewardType } from "@spt/models/enums/RewardType";
 import { ILogger } from "@spt/models/spt/utils/ILogger";
 import { HashUtil } from "@spt/utils/HashUtil";
 
@@ -188,7 +189,7 @@ export class FluentAssortConstructor
                 onQuestSuccessAssort[itemBeingSoldId] = questRestriction._id;
                 const index = questRestriction.rewards.Success.length;
 
-                const questReward: IQuestReward = {
+                const questReward: IReward = {
                     "id": this.hashUtil.generate(),
                     "index": index,
                     "items": [
@@ -200,7 +201,7 @@ export class FluentAssortConstructor
                     "loyaltyLevel": loyaltyLevel,
                     "target": itemBeingSold._id,
                     "traderId": data.base._id,
-                    "type": QuestRewardType.ASSORTMENT_UNLOCK,
+                    "type": RewardType.ASSORTMENT_UNLOCK,
                     "unknown": false
                 };
                 questRestriction.rewards.Success.push(questReward);
